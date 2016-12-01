@@ -1,0 +1,40 @@
+{
+  "name": "tsconfig-v",
+  "version": "0.0.0-development",
+  "description": "",
+  "main": "js/index.js",
+  "scripts": {
+    "build": "tsc",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "bin": {
+    "tsconfig-v": "js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cwharris/tsconfig-v.git"
+  },
+  "keywords": [
+    "tsc",
+    "typescript",
+    "build"
+  ],
+  "author": "cwharris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cwharris/tsconfig-v/issues"
+  },
+  "homepage": "https://github.com/cwharris/tsconfig-v#readme",
+  "devDependencies": {
+    "@types/minimist": "^1.1.29",
+    "@types/node": "0.0.2",
+    "@types/shelljs": "^0.3.33",
+    "semantic-release": "^6.3.2",
+    "typescript": "^2.0.10"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "path": "^0.12.7",
+    "shelljs": "^0.7.5"
+  }
+}
